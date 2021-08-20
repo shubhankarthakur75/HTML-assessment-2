@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <form action="../index1.html">
+
+        <div>
+            <label for="name">Name :</label>
+            <input type="text" name="name" id="name" value="" placeholder="name" required><br><br>
+        </div> 
+
+        <div>
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" value="" placeholder="Email" required><br><br>
+        </div>
+
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="password" required>           
+        </div>
+        <br>
+        <div>
+            Language<br>
+            <input type="radio" name="language" value="react">React<br>
+            <input type="radio" name="language" value="angular">Angular<br>
+            <input type="radio" name="language" value="vue">Vue<br>
+        </div><br>
+
+        <div>
+            Course<br>
+            <input type="checkbox" name="course" value="MERN">MERN<br>
+            <input type="checkbox" name="course"  value="MEAN">MEAN <br>
+            <input type="checkbox" name="course" value="MEVN">MEVN <br>
+        </div><br>
+
+        <div>Working Status
+            <select name="working" id="course" required>
+                <option value="Student">Student</option>
+                <option value="working-professional">Working Professional</option>
+            </select>
+
+        </div><br>
+
+        Feedback:
+        <div>
+            <textarea name="description" id="discription" cols="30" rows="5" placeholder="Feedback"></textarea>
+        </div>
+
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+
+    </form><br>
+
+    <div>
+
+        <h1>Tables</h1>
+        <a href="./table.html">Click here</a>
+    </div>
+
+
+</body>
+</html>
